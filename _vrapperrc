@@ -1,0 +1,57 @@
+nnoremap <CR> A<CR><ESC>
+nnoremap <S-CR> kA<CR><ESC>j
+
+set imdisable
+set smartindent
+set autoindent
+set cleaninent
+set imsearch=1
+set hlsearch
+set smartnormalmode
+set ignorecase
+set smartcase
+set incsearch
+set wrapscan
+
+onoremap j iw
+onoremap k i"
+onoremap l i'
+onoremap h i)
+onoremap ; t;
+onoremap aa aw
+onoremap . t>
+
+nnoremap s viw"0p<ESC>
+nnoremap S c$<C-r>0<ESC>
+nnoremap <C-s> :w<CR>
+nnoremap <C-s><C-s> :wq
+nnoremap Y y$
+nnoremap D d$
+nnoremap <C-F6> guiw
+nnoremap <C-F7> gUiw
+nnoremap <C-a> ggVG
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap <Esc><Esc> :nohlsearch<CR>
+nnoremap + <C-a>
+nnoremap - <C-x>
+nnoremap H 0
+nnoremap J 20jz<cr>
+nnoremap <SPACE> 20jz<cr>
+nnoremap K 20kz<cr>
+nnoremap L $
+
+vnoremap v $h
+vnoremap p "0p<CR>
+vnoremap <A-a> :sort<CR>
+vnoremap <A-d> :sort!<CR>
+vnoremap <A-m> :sort u<CR>
+vnoremap <C-F6> gu
+vnoremap <C-F7> gU
+vnoremap <C-c> y
+vnoremap r :s///g<LEFT><LEFT><LEFT>  
+
+inoremap jj <ESC>
