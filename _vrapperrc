@@ -1,5 +1,6 @@
 nnoremap <CR> A<CR><ESC>
 nnoremap <S-CR> kA<CR><ESC>j
+nnoremap f <F3>
 
 set imdisable
 set smartindent
