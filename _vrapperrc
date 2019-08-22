@@ -2,6 +2,8 @@ nnoremap <CR> A<CR><ESC>
 nnoremap <S-CR> kA<CR><ESC>j
 nnoremap f <F3>
 
+"@see https://github.com/vrapper/vrapper/issues/190
+set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
 set imdisable
 set smartindent
 set autoindent
@@ -21,7 +23,7 @@ onoremap h i)
 onoremap ; t;
 onoremap aa aw
 onoremap . t>
-"‚¨‚·‚·‚ß
+
 nnoremap s viw"0p<ESC>
 nnoremap S c$<C-r>0<ESC>
 nnoremap <C-s> :w<CR>
@@ -56,3 +58,4 @@ vnoremap <C-c> y
 vnoremap r :s///g<LEFT><LEFT><LEFT>  
 
 inoremap jj <ESC>
+
