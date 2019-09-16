@@ -1,6 +1,13 @@
+
 nnoremap <CR> A<CR><ESC>
 nnoremap <S-CR> kA<CR><ESC>j
-nnoremap f <F3>
+nnoremap gm `m
+nnoremap mk [m
+nnoremap mj ]m
+nnoremap R % 
+nnoremap qq :q!<CR>
+nnoremap _ <C-w>w
+nnoremap ga 0f=<RIGHT><RIGHT>
 
 "@see https://github.com/vrapper/vrapper/issues/190
 set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
@@ -20,12 +27,13 @@ onoremap j iw
 onoremap k i"
 onoremap l i'
 onoremap h i)
-onoremap ; t;
-onoremap aa aw
 onoremap . t>
+onoremap ; t;
+"もっと良い割当があるかも
+onoremap aa aW
 
 nnoremap s viw"0p<ESC>
-nnoremap S c$<C-r>0<ESC>
+nnoremap S v$"0p<ESC>
 nnoremap <C-s> :w<CR>
 nnoremap <C-s><C-s> :wq
 nnoremap Y y$
@@ -35,17 +43,19 @@ nnoremap <C-F7> gUiw
 nnoremap <C-a> ggVG
 nnoremap n nzz
 nnoremap N Nzz
-nnoremap * *zz
+nnoremap * *N
 nnoremap # #zz
 nnoremap g* g*zz
 nnoremap <Esc><Esc> :nohlsearch<CR>
 nnoremap + <C-a>
 nnoremap - <C-x>
-nnoremap H 0
+nnoremap H _
 nnoremap J 20jz<cr>
-nnoremap <SPACE> 20jz<cr>
 nnoremap K 20kz<cr>
 nnoremap L $
+nnoremap <SPACE> yiw
+onoremap <SPACE> f<SPACE>
+onoremap <S-SPACE> t<SPACE>
 
 vnoremap v $h
 vnoremap p "0p<CR>
@@ -56,6 +66,3 @@ vnoremap <C-F6> gu
 vnoremap <C-F7> gU
 vnoremap <C-c> y
 vnoremap r :s///g<LEFT><LEFT><LEFT>  
-
-inoremap jj <ESC>
-
