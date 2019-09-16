@@ -1,10 +1,8 @@
-
 nnoremap <CR> A<CR><ESC>
 nnoremap <S-CR> kA<CR><ESC>j
 nnoremap gm `m
 nnoremap mk [m
 nnoremap mj ]m
-nnoremap R % 
 nnoremap qq :q!<CR>
 nnoremap _ <C-w>w
 nnoremap ga 0f=<RIGHT><RIGHT>
@@ -36,19 +34,19 @@ nnoremap s viw"0p<ESC>
 nnoremap S v$"0p<ESC>
 nnoremap <C-s> :w<CR>
 nnoremap <C-s><C-s> :wq
-nnoremap Y y$
-nnoremap D d$
 nnoremap <C-F6> guiw
 nnoremap <C-F7> gUiw
 nnoremap <C-a> ggVG
 nnoremap n nzz
 nnoremap N Nzz
 nnoremap * *N
-nnoremap # #zz
+nnoremap # #N
 nnoremap g* g*zz
 nnoremap <Esc><Esc> :nohlsearch<CR>
 nnoremap + <C-a>
 nnoremap - <C-x>
+nnoremap t %
+nnoremap R yyp
 nnoremap H _
 nnoremap J 20jz<cr>
 nnoremap K 20kz<cr>
