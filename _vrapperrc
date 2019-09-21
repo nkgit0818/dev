@@ -6,6 +6,8 @@ nnoremap mj ]m
 nnoremap qq :q!<CR>
 nnoremap _ <C-w>w
 nnoremap ga 0f=<RIGHT><RIGHT>
+nnoremap cc 0f=<RIGHT><RIGHT>ciw
+inoremap jj <ESC>
 
 "@see https://github.com/vrapper/vrapper/issues/190
 set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
