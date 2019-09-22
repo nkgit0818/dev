@@ -9,7 +9,10 @@ nnoremap ga 0f=<RIGHT><RIGHT>
 nnoremap cc 0f=<RIGHT><RIGHT>ciw
 nnoremap cs 0f=<RIGHT><RIGHT>c$
 nnoremap cf _ciw
+nnoremap yf _yiw
 nnoremap cv _wciw
+nnoremap yv _wyiw
+nnoremap dv _wdiw
 inoremap jj <ESC>
 
 "@see https://github.com/vrapper/vrapper/issues/190
