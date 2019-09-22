@@ -14,6 +14,9 @@ nnoremap cv _wciw
 nnoremap yv _wyiw
 nnoremap dv _wdiw
 inoremap jj <ESC>
+nnoremap ch f)ci)
+nnoremap dh f)di)
+nnoremap yh f)yi)
 
 "@see https://github.com/vrapper/vrapper/issues/190
 set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
@@ -32,7 +35,6 @@ set wrapscan
 onoremap j iw
 onoremap k i"
 onoremap l i'
-onoremap h i)
 onoremap . t>
 onoremap ; t;
 "もっと良い割当があるかも
