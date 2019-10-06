@@ -9,9 +9,9 @@ nnoremap ga 0f=<RIGHT><RIGHT>
 nnoremap cc 0f=<RIGHT><RIGHT>ciw
 nnoremap cs 0f=<RIGHT><RIGHT>c$
 inoremap jj <ESC>
-nnoremap ch f)ci)
-nnoremap dh f)di)
-nnoremap yh f)yi)
+nnoremap ch ci(
+nnoremap dh di(
+nnoremap yh yi(
 
 "@see https://github.com/vrapper/vrapper/issues/190
 set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
