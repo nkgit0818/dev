@@ -12,6 +12,8 @@ inoremap jj <ESC>
 nnoremap ch ci(
 nnoremap dh di(
 nnoremap yh yi(
+nnoremap t /
+nnoremap T ?
 
 "@see https://github.com/vrapper/vrapper/issues/190
 set gvimpath=C:\Progra~2\Vim\vim81\gvim.exe
@@ -50,14 +52,11 @@ nnoremap g* g*zz
 nnoremap <Esc><Esc> :nohlsearch<CR>
 nnoremap + <C-a>
 nnoremap - <C-x>
-nnoremap t %
-nnoremap R yyp
+nnoremap R %
 nnoremap H _
 nnoremap J 20jz<cr>
 nnoremap K 20kz<cr>
 nnoremap L $
-nnoremap <SPACE> /
-nnoremap <S-SPACE> ?
 
 vnoremap v $h
 vnoremap p "0p<CR>
