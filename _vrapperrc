@@ -56,9 +56,8 @@ nnoremap H _
 nnoremap J 20jz<cr>
 nnoremap K 20kz<cr>
 nnoremap L $
-nnoremap <SPACE> yiw
-onoremap <SPACE> f<SPACE>
-onoremap <S-SPACE> t<SPACE>
+onoremap <SPACE> /
+onoremap <S-SPACE> ?
 
 vnoremap v $h
 vnoremap p "0p<CR>
