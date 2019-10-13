@@ -56,8 +56,8 @@ nnoremap H _
 nnoremap J 20jz<cr>
 nnoremap K 20kz<cr>
 nnoremap L $
-onoremap <SPACE> /
-onoremap <S-SPACE> ?
+nnoremap <SPACE> /
+nnoremap <S-SPACE> ?
 
 vnoremap v $h
 vnoremap p "0p<CR>
