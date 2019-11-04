@@ -1,0 +1,24 @@
+# 基本は github.com のレポジトリーを指定するだけ
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# ブラウザで使うやつ
+[[plugins]]
+repo = 'glacambre/firenvim'
+hook_post_update = '''
+  call firenvim#install(0)
+'''
+# 依存関係を指定したいとき
+[[plugins]]
+repo    = 'vim-airline/vim-airline'
+depends = ['vim-airline-themes']
+
+[[plugins]]  
+repo = 'vim-airline/vim-airline-themes'  
+hook_add = '''  
+  set laststatus=1
+  let g:airline#extensions#tabline#enabled = 1  
+  let g:airline#extensions#tabline#buffer_idx_mode = 1  
+  let g:airline#extensions#whitespace#mixed_indent_algo = 1  
+  let g:airline_theme = 'deus'  
+'''  
